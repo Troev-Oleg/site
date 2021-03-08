@@ -44,3 +44,31 @@ body,html {
 }
 
 
+.jumbotron {
+  padding: 1em;
+  border-radius: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.padding {
+  padding-bottom: 2em;
+}
+
+.alert {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.alert hr {
+  border-top: 2px solid #f0f0f0;
+  width: 95%;
+  margin-top: 0.3 em;
+  margin-bottom: 1em;
+}
+
+.fa-check-circle {
+  color: slateblue;
+  font-size: 1.5em;
+}
