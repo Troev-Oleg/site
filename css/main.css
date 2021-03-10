@@ -16,7 +16,7 @@ body,html {
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 600px;
 }
 
 .carousel-inner img {
@@ -68,7 +68,60 @@ body,html {
   margin-bottom: 1em;
 }
 
-.fa-check-circle {
-  color: slateblue;
-  font-size: 1.5em;
+.fa-bullseye {color: #2787F5}
+.fa-male {color: #2787F5}
+.fa-desktop {color: #2787F5}
+.fa-paint-brush {color: #2787F5}
+.fa-camera {color: #2787F5}
+.fa-users {color: #2787F5}
+
+.fa-bullseye, .fa-male, .fa-desktop, .fa-paint-brush, .fa-camera, .fa-users {
+  font-size: 2em;
+  margin: 1em;
+}
+
+
+#fixed {
+  height: 400px;
+  border-top: 4px solid #f0f0f0;
+  border-bottom: 4px solid #f0f0f0;
+  background: url(../img/vk.link_studio_sforzando.png) no-repeat center center fixed;
+  background-blend-mode: multiply;
+  background-color: lightblue;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;  
+}
+
+
+#gifsBtn {
+  margin-bottom: 20px;
+}
+
+#gifs img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+
+.social a {
+  font-size: 2em;
+  padding: 0.2em;
+}
+
+.fa-instagram {color: #C13584;}
+.fa-vk {color: #2787F5;}
+
+.fa-instagram :hover {color: #ccc;}
+.fa-vk :hover {color: #ccc;}
+
+
+footer {
+  background-color:#3f3f3f;
+  padding-top: 50px;
+  border-top: 4px solid silver;
+  color: white;
+
 }
