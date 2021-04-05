@@ -1,195 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-
-body,html {
-  width: 100%;
-  height: 100%;
-  font-family: "Poppins", sans-serif;
-  color: #222;
+.light-bg {
+  background: #dce1e4;
 }
 
-.navbar-nav li {
-  padding-right: 20px;
+.relative {
+  position: relative;
 }
 
-.nav-link {
-  font-size: 1.1em !important;
-}
-
-.carousel-inner {
-  height: 600px;
-}
-
-.carousel-inner img {
-  transform: translateY(-30%);
-  height: 100%;
-}
-
-@media (min-width: 1100px) {
-  .carousel-inner img {
-    width: 100%;
-  }
-}
-
-.carousel-caption {
+.large-watermark {
   position: absolute;
-  top: 50%;
-  transform: translateY(-80%);
-  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  font-size: 17em;
+  white-space: nowrap;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: .07;
 }
 
-@media (max-width: 450px) {
-  .carousel-caption .display-2 {
-    font-size: 3em;
-  }
+.dark-bg {
+  background: #2e2f31;
 }
 
-
-.jumbotron {
-  padding: 1em;
-  border-radius: 0;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.padding {
-  padding-bottom: 2em;
-}
-
-.alert {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2em;
-}
-
-.alert hr {
-  border-top: 2px solid #f0f0f0;
-  width: 95%;
-  margin-top: 0.3 em;
-  margin-bottom: 1em;
-}
-
-.fa-bullseye {color: #2787F5}
-.fa-male {color: #2787F5}
-.fa-desktop {color: #2787F5}
-.fa-paint-brush {color: #2787F5}
-.fa-camera {color: #2787F5}
-.fa-users {color: #2787F5}
-
-.fa-bullseye, .fa-male, .fa-desktop, .fa-paint-brush, .fa-camera, .fa-users {
-  font-size: 2em;
-  margin: 1em;
-}
-
-
-#fixed {
-  height: 400px;
-  border-top: 4px solid #f0f0f0;
-  border-bottom: 4px solid #f0f0f0;
-  background: url(../img/vk.link_studio_sforzando.png) no-repeat center center fixed;
-  background-blend-mode: multiply;
-  background-color: lightblue;
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;  
-}
-
-
-#gifsBtn {
-  margin-bottom: 20px;
-}
-
-#gifs img {
-  max-width: 100%;
-  max-height: 200px;
-  margin-bottom: 20px;
-}
-
-
-.social a {
-  font-size: 2em;
-  padding: 0.2em;
-}
-
-.fa-instagram {color: #C13584;}
-.fa-vk {color: #2787F5;}
-
-.fa-instagram :hover {color: #ccc;}
-.fa-vk :hover {color: #ccc;}
-
-
-footer {
-  background-color:#3f3f3f;
-  padding-top: 50px;
-  border-top: 4px solid silver;
+.dark-bg span {
   color: white;
 }
 
-
-
-body {
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
+.dark-bg p {
+  color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:root {
-  --jumbotron-padding-y: 3rem;
+.dark-bg a {
+  color: white;
 }
 
-.jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-  background-color: #fff;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
+.contact-bg {
+  background: #2e2f31;
 }
 
-.jumbotron p:last-child {
-  margin-bottom: 0;
+.contact-bg h2 {
+  color: white;
 }
 
-.jumbotron-heading {
-  font-weight: 300;
+.contact-bg p {
+  color: white;
 }
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
-}
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+/*# sourceMappingURL=main.css.map */

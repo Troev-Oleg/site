@@ -1,0 +1,44 @@
+
+.light-bg {
+    background: #dce1e4;
+}
+
+.relative {
+    position: relative;
+}
+
+.large-watermark {
+    position: absolute;
+    font-size: 17em;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: .07;
+}
+
+.dark-bg {
+    background: #2e2f31;
+
+    span {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.contact-bg {
+    background: #2e2f31;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
